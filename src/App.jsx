@@ -41,7 +41,7 @@ function App() {
   // }, [watchlist]);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/FilmBase">
         <Navbar />
 
         <Routes>
